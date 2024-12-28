@@ -17,14 +17,14 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+        color: white
+        # image:
+        #   filename: stacked-peaks.svg
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: false
 
   # - block: markdown
   #   content:

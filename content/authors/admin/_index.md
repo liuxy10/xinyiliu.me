@@ -30,9 +30,9 @@ organizations:
 # Social network links
 profiles:
   - icon: academicons/google-scholar
-    url: 
+    url: https://scholar.google.com/citations?user=Ob0bNAUAAAAJ&hl=en
   - icon: brands/linkedin
-    url: 
+    url: https://www.linkedin.com/in/xinyibbtxdy/
 
 interests:
   - Robotics

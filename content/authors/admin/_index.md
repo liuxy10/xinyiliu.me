@@ -100,15 +100,15 @@ work:
 #         percent: 80
 #         icon: circle-stack
 
-languages:
-  - name: English
-    percent: 90
-  - name: Chinese
-    percent: 100
-  - name: Cantonese
-    percent: 50
-  - name: French
-    percent: 40
+# languages:
+#   - name: English
+#     percent: 90
+#   - name: Chinese
+#     percent: 100
+#   - name: Cantonese
+#     percent: 50
+#   - name: French
+#     percent: 40
 
 # Awards
 awards:

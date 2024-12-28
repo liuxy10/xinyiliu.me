@@ -24,7 +24,7 @@ role: Robotics Research Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Michigan
+  - name: University of North Carolina, Chapel Hill
     url: 
 
 # Social network links

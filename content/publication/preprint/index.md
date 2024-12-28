@@ -1,71 +1,68 @@
+```yaml
 ---
-title: "An example preprint / working paper"
+title: "SplaTraj: Camera Trajectory Generation with Semantic Gaussian Splatting"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
+- Tianyi Zhang
+- Matthew Johnson-Roberson
+- Weiming Zhi
+date: "2024-10-08T00:00:00Z"
+doi: "10.48550/arXiv.2410.06014"
 
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-10-08T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
-# Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "*arXiv preprint*"
+publication_short: "arXiv"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Many recent developments for robots to represent environments have focused on photorealistic reconstructions. This paper contributes a novel framework, SplaTraj, which formulates the generation of images within photorealistic environment representations as a continuous-time trajectory optimization problem. The approach enables generating camera trajectories that match user-specified language instructions by querying photorealistic representations with language embeddings to isolate and project specified spatial regions dynamically.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A novel framework for generating semantically-aware camera trajectories using Gaussian splatting and language-guided trajectory optimization.
 
 tags:
-- Large Language Models
+- Robotics
+- Computer Vision
+- Semantic Gaussian Splatting
+- Camera Trajectory Generation
 
 featured: true
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_pdf: "https://arxiv.org/pdf/2410.06014.pdf"
+url_code: "https://github.com/your-github-repo/SplaTraj"
+url_project: ""
+url_slides: ""
+url_video: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: ""
+  caption: 'Semantic Camera Trajectory Generation'
+  focal_point: "Center"
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects:
-- internal-project
+- semantic-robotics
+- computer-vision
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+## Research Highlights
+
+- Developed SplaTraj, a novel framework for generating semantically-aware camera trajectories
+- Introduced a method for querying photorealistic representations using language embeddings
+- Formulated camera trajectory generation as a continuous-time trajectory optimization problem
+- Successfully generated Radial Basis Function-based camera trajectories matching user-specified language instructions
 
 {{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
+This work was developed during research at Carnegie Mellon University's Drop Lab under the supervision of Dr. Matthew Johnson-Roberson.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+## Technical Approach
+
+The SplaTraj framework addresses the challenge of generating meaningful camera trajectories by:
+1. Creating a dense semantic representation using Gaussian splatting
+2. Implementing a language-guided trajectory optimization method
+3. Dynamically projecting specified spatial regions
+4. Generating photogenic camera movements that respect semantic constraints
+```
+

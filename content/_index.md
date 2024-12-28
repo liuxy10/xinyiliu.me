@@ -17,7 +17,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: white
+        color: black
         # image:
         #   filename: stacked-peaks.svg
         #   filters:

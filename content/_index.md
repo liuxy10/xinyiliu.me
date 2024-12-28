@@ -26,21 +26,21 @@ sections:
           position: center
           parallax: false
 
-  - block: markdown
-    content:
-      title: '🤖 Research Focus'
-      subtitle: ''
-      text: |-
-        My research explores cutting-edge robotics technologies, with a particular emphasis on:
-        - Semantic Camera Trajectory Generation
-        - Safe Reinforcement Learning
-        - Autonomous Systems
-        - Computer Vision and Machine Learning Applications
+  # - block: markdown
+  #   content:
+  #     title: '🤖 Research Focus'
+  #     subtitle: ''
+  #     text: |-
+  #       My research explores cutting-edge robotics technologies, with a particular emphasis on:
+  #       - Semantic Camera Trajectory Generation
+  #       - Safe Reinforcement Learning
+  #       - Autonomous Systems
+  #       - Computer Vision and Machine Learning Applications
 
-        Current research aims to develop innovative solutions that enhance robotic perception, decision-making, and interaction capabilities.
+  #       Current research aims to develop innovative solutions that enhance robotic perception, decision-making, and interaction capabilities.
 
-    design:
-      columns: '1'
+  #   design:
+  #     columns: '1'
 
   - block: collection
     id: papers

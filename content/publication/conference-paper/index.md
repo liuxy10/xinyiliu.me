@@ -1,87 +1,72 @@
 ---
-title: 'An example conference paper'
+title: 'Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration'
 
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Jinning Li
+  - Banghua Zhu
+  - Jiantao Jiao
+  - Masayoshi Tomizuka
+  - Chen Tang
+  - Wei Zhan
 
-# Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - 'Co-first Author'
+  - 'First Author'
+  - 'Contributor'
+  - 'Contributor'
+  - 'Senior Author'
+  - 'Contributor'
+  - 'Corresponding Author'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2024-01-15T00:00:00Z'
+doi: '10.1109/ICRA.2024.7447-7454'
 
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-01-15T00:00:00Z'
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
-# Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *2024 IEEE International Conference on Robotics and Automation (ICRA)*
+publication_short: In *ICRA 2024*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Safe Reinforcement Learning (RL) aims to find policies that achieve high rewards while satisfying cost constraints. Existing approaches often struggle with overly conservative exploration, particularly in safety-critical domains like autonomous driving. We propose Guided Online Distillation (GOLD), an innovative offline-to-online safe RL framework that distills large-capacity offline policies into lightweight, computationally efficient policy networks through guided online safe RL training.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A novel framework for promoting safe reinforcement learning by distilling offline expert demonstrations into lightweight, safe policy networks.
 
 tags:
-  - Large Language Models
+  - Safe Reinforcement Learning
+  - Autonomous Driving
+  - Policy Distillation
+  - Machine Learning
 
-# Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+url_pdf: 'https://arxiv.org/pdf/2309.09408.pdf'
+# url_code: 'https://github.com//guided-online-distillation'
+url_project: 'https://sites.google.com/view/guided-online-distillation'
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
+  caption: 'GOLD Framework for Safe RL'
+  focal_point: 'Center'
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects:
-  - example
+  - safe-reinforcement-learning
+  - autonomous-systems
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+## Research Significance
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+The Guided Online Distillation (GOLD) framework addresses critical challenges in safe reinforcement learning by:
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+- Mitigating conservative exploration in safety-critical scenarios
+- Distilling large-capacity offline policies into lightweight networks
+- Demonstrating improved performance in autonomous driving tasks
+
+## Key Contributions
+
+- Proposed an offline-to-online safe RL framework
+- Developed a method to extract lightweight policies from expert demonstrations
+- Achieved approximately 15% improvement in success rates for real-world traffic-driving tasks

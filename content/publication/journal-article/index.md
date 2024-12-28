@@ -3,7 +3,6 @@ title: "Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips"
 authors:
 - admin
 - S. Danforth
-- X. Liu
 - M. Ward
 - P. Holmes
 - R. Vasudevan
@@ -34,7 +33,7 @@ tags:
 - Predictive Modeling
 featured: true
 
-url_pdf: 
+url_pdf: https://par.nsf.gov/servlets/purl/10396519
 url_code: 'https://github.com/roahmlab/swing_hip_trip_prediction'
 url_dataset: 'https://deepblue.lib.umich.edu/data/concern/data_sets/r494vk49s'
 
@@ -48,10 +47,6 @@ projects:
 
 slides: ""
 ---
-
-## Research Significance
-
-This paper presents a comprehensive approach to predicting swing hip kinematics during unexpected trips, crucial for developing safer and more responsive assistive robotic devices. The research contributes to understanding human motion recovery mechanisms and provides computational models that can enhance prosthetic and robotic system design.
 
 ## Key Contributions
 

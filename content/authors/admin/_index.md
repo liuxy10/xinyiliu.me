@@ -84,21 +84,21 @@ work:
       - Reduced collision rate in simulation from 30% to less than 3%
       - Implemented trajectory prediction modules
 
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        percent: 90
-        icon: code-bracket
-      - name: C/C++
-        percent: 80
-        icon: code-bracket
-      - name: MATLAB
-        percent: 70
-        icon: chart-bar
-      - name: ROS
-        percent: 80
-        icon: circle-stack
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         percent: 90
+#         icon: code-bracket
+#       - name: C/C++
+#         percent: 80
+#         icon: code-bracket
+#       - name: MATLAB
+#         percent: 70
+#         icon: chart-bar
+#       - name: ROS
+#         percent: 80
+#         icon: circle-stack
 
 languages:
   - name: English

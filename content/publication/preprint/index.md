@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "SplaTraj: Camera Trajectory Generation with Semantic Gaussian Splatting"
 authors:
@@ -64,5 +63,5 @@ The SplaTraj framework addresses the challenge of generating meaningful camera t
 2. Implementing a language-guided trajectory optimization method
 3. Dynamically projecting specified spatial regions
 4. Generating photogenic camera movements that respect semantic constraints
-```
+
 

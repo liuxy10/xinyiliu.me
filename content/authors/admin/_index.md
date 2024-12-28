@@ -69,16 +69,16 @@ education:
 work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
-    date_start: 2024-04
-    date_end: 2024-09
+    date_start: 2024-04-01
+    date_end: 2024-09-01
     summary: |
       - Developed SplaTraj, a novel framework for semantic camera trajectory generation
       - Created methods for photorealistic representation querying using language embeddings
 
   - position: Research Intern
     company_name: Honda Research Institute
-    date_start: 2022-09
-    date_end: 2023-04
+    date_start: 2022-09-01
+    date_end: 2023-04-01
     summary: |
       - Developed obstacle-avoidance planning module in C++
       - Reduced collision rate in simulation from 30% to less than 3%

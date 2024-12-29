@@ -32,27 +32,30 @@ featured: true
 
 ### Mathematical Formulation
 
-Camera trajectory optimization is formulated as:
+Camera trajectory optimization is formulated as a constrained optimization problem:
 
-\[ \min_{\tau} J(\tau) = \int_0^T \left( L_{\text{smoothness}}(\tau) + L_{\text{semantic}}(\tau, \mathbf{E}) \right) dt \]
+$$ \min_{\tau} J(\tau) = \int_0^T \left( L_{\text{smoothness}}(\tau) + L_{\text{semantic}}(\tau, \mathbf{E}) \right) dt $$
 
-Where:
-- \( \tau \) represents camera trajectory
-- \( L_{\text{smoothness}} \) ensures trajectory smoothness
-- \( L_{\text{semantic}} \) captures semantic constraints
-- \( \mathbf{E} \) represents language embeddings
+Key components:
+- $$ \tau $$: Camera trajectory
+- $$ L_{\text{smoothness}} $$: Trajectory smoothness penalty
+- $$ L_{\text{semantic}} $$: Semantic constraint loss
+- $$ \mathbf{E} $$: Language embedding vector
 
 ### Semantic Representation
 
-The semantic Gaussian splatting uses a volumetric representation:
+Semantic Gaussian splatting uses a probabilistic volumetric representation:
 
-\[ G(x) = \sum_{i=1}^{N} \alpha_i \exp\left(-\frac{(x - \mu_i)^T \Sigma_i^{-1} (x - \mu_i)}{2}\right) \]
+$$ G(x) = \sum_{i=1}^{N} \alpha_i \exp\left(-\frac{(x - \mu_i)^2}{2\sigma_i^2}\right) $$
 
 Where:
-- \( G(x) \) is the semantic density
-- \( \alpha_i \) are opacity values
-- \( \mu_i \) are Gaussian means
-- \( \Sigma_i \) are covariance matrices
+- $$ G(x) $$ represents semantic density
+- $$ \alpha_i $$ are opacity coefficients
+- $$ \mu_i $$ are Gaussian cluster centers
+- $$ \sigma_i $$ are cluster spread parameters
+
+The mathematical formulation draws inspiration from semantic querying techniques developed in previous research on photorealistic environment representations, particularly leveraging language embeddings for dynamic spatial projection.
+
 
 ## Experimental Results
 

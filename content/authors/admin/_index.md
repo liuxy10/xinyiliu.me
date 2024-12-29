@@ -135,4 +135,5 @@ awards:
 
 ## About Me
 
-Xinyi Liu is a robotics researcher specializing in autonomous systems, computer vision, and machine learning. Her research focuses on developing innovative robotic technologies, including semantic camera trajectory generation, safe reinforcement learning, and trip-recovery planning for prosthetic systems.
+<!-- Xinyi Liu is a robotics researcher specializing in autonomous systems, computer vision, and machine learning. Her research focuses on developing innovative robotic technologies, including semantic camera trajectory generation, safe reinforcement learning, and trip-recovery planning for prosthetic systems. -->
+Hi! I'm Xinyi Liu, I joined UNC & NCSU joint BME Doctoral program in the Fall of 2024. I previously worked on algorithms that enable powered prosthetic legs to automatically avoid trips. My research interests currently focus on reinforcement learning deployed on real robotics systems.

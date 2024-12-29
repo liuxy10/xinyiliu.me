@@ -64,17 +64,7 @@ sections:
     design:
       view: citation
 
-  - block: collection
-    id: research
-    content:
-      title: Research Experiences
-      text: |-
-        - Camera Trajectory Generation with Semantic Gaussian Splatting (CMU)
-        - Safe Reinforcement Learning in Driving Scenarios (UC Berkeley)
-        - Swing Hip Recovery Behavior Modeling (University of Michigan)
-        - Autonomous Mid-Air Drone Docking (UC Berkeley)
-    design:
-      view: list
+
 
   - block: markdown
     content:

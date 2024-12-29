@@ -57,16 +57,53 @@ projects:
 slides: ""
 ---
 
+---
+title: 'Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration'
+
+## Mathematical Formulation
+
+### Policy Distillation Objective
+
+The core optimization problem is formulated as:
+
+$$ \min_{\pi_{\theta}} \mathbb{E}_{s \sim d_{\text{expert}}} \left[ L_{\text{distill}}(\pi_{\theta}(s), \pi_{\text{expert}}(s)) + \lambda L_{\text{safety}}(\pi_{\theta}) \right] $$
+
+Where:
+- $\pi_{\theta}$: Online policy network
+- $\pi_{\text{expert}}$: Offline expert policy
+- $L_{\text{distill}}$: Policy distillation loss
+- $L_{\text{safety}}$: Safety constraint loss
+- $\lambda$: Regularization coefficient
+
+### Safe Exploration Constraint
+
+The safety constraint is defined as:
+
+$$ P(\text{safe trajectory}) \geq 1 - \epsilon $$
+
+## Technical Approach
+
+### Key Components
+- Two-stage policy extraction
+- Offline expert policy distillation
+- Online fine-tuning with safety constraints
+
+### Performance Metrics
+- Reduced collision rate from 30% to <3%
+- 15% improvement in driving task success rates
+
 ## Research Significance
 
-The Guided Online Distillation (GOLD) framework addresses critical challenges in safe reinforcement learning by:
+Addresses critical reinforcement learning challenges:
+- Mitigates conservative exploration
+- Enables lightweight policy networks
+- Improves safety in autonomous systems
 
-- Mitigating conservative exploration in safety-critical scenarios
-- Distilling large-capacity offline policies into lightweight networks
-- Demonstrating improved performance in autonomous driving tasks
+## Implementation Highlights
+- Developed versatile driving simulation platform
+- Implemented online distillation procedure
+- Extracted lightweight policies from transformer models
 
-## Key Contributions
-
-- Proposed an offline-to-online safe RL framework
-- Developed a method to extract lightweight policies from expert demonstrations
-- Achieved approximately 15% improvement in success rates for real-world traffic-driving tasks
+{{% callout note %}}
+Developed at UC Berkeley's MSC Lab under Prof. Masayoshi Tomizuka
+{{% /callout %}}

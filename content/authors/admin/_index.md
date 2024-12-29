@@ -44,8 +44,8 @@ profiles:
   - icon: brands/github
     url: https://github.com/liuxy10
 
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
+  - icon: academicons/orcid
+    url: https://orcid.org/%200000-0002-6223-203X
 
 
 interests:

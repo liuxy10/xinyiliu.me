@@ -10,7 +10,7 @@ sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: "Robotics Research Engineer specializing in autonomous systems, computer vision, and machine learning. Focused on developing innovative robotic technologies including semantic camera trajectory generation, safe reinforcement learning, and trip-recovery planning for prosthetic systems.
+      text: "Hi! I'm Xinyi Liu, I joined UNC & NCSU joint BME Doctoral program in the Fall of 2024. I previously worked on algorithms that enable powered prosthetic legs to automatically avoid trips. My research interests currently focus on reinforcement learning deployed on real robotics systems.
       
       "
       button:

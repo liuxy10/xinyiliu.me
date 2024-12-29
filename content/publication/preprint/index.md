@@ -21,6 +21,10 @@ tags:
 - Semantic Gaussian Splatting
 
 featured: true
+
+url_pdf: 'https://arxiv.org/abs/2410.06014'
+# url_code: 'https://github.com//guided-online-distillation'
+url_project: 'https://www.youtube.com/watch?v=PUXNBfpeZkg'
 ---
 
 ## Technical Overview

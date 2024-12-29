@@ -1,6 +1,5 @@
 ---
-title: 'Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration'
-
+title: "Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration"
 authors:
   - admin
   - Jinning Li

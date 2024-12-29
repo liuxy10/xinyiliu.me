@@ -4,7 +4,7 @@ date: 2024-07-01
 type: landing
 
 design:
-  spacing: "6rem"
+  spacing: "5rem"
 
 sections:
   - block: resume-biography-3

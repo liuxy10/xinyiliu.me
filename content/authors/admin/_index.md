@@ -33,6 +33,20 @@ profiles:
     url: https://scholar.google.com/citations?user=Ob0bNAUAAAAJ&hl=en
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/xinyibbtxdy/
+  
+  - icon: at-symbol
+    url: 'mailto:xinyili@ad.unc.edu'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://x.com/XinyiwwLiu
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/liuxy10
+
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
+
 
 interests:
   - Robotics

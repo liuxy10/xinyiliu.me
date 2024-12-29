@@ -37,10 +37,10 @@ Camera trajectory optimization is formulated as a constrained optimization probl
 $$ \min_{\tau} J(\tau) = \int_0^T \left( L_{\text{smoothness}}(\tau) + L_{\text{semantic}}(\tau, \mathbf{E}) \right) dt $$
 
 Key components:
-- $$ \tau $$: Camera trajectory
-- $$ L_{\text{smoothness}} $$: Trajectory smoothness penalty
-- $$ L_{\text{semantic}} $$: Semantic constraint loss
-- $$ \mathbf{E} $$: Language embedding vector
+- $ \tau $: Camera trajectory
+- $ L_{\text{smoothness}} $: Trajectory smoothness penalty
+- $ L_{\text{semantic}} $: Semantic constraint loss
+- $ \mathbf{E} $: Language embedding vector
 
 ### Semantic Representation
 
@@ -49,10 +49,10 @@ Semantic Gaussian splatting uses a probabilistic volumetric representation:
 $$ G(x) = \sum_{i=1}^{N} \alpha_i \exp\left(-\frac{(x - \mu_i)^2}{2\sigma_i^2}\right) $$
 
 Where:
-- $$ G(x) $$ represents semantic density
-- $$ \alpha_i $$ are opacity coefficients
-- $$ \mu_i $$ are Gaussian cluster centers
-- $$ \sigma_i $$ are cluster spread parameters
+- $ G(x) $ represents semantic density
+- $ \alpha_i $ are opacity coefficients
+- $ \mu_i $ are Gaussian cluster centers
+- $ \sigma_i $ are cluster spread parameters
 
 The mathematical formulation draws inspiration from semantic querying techniques developed in previous research on photorealistic environment representations, particularly leveraging language embeddings for dynamic spatial projection.
 

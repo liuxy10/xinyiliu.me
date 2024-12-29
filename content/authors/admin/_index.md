@@ -24,7 +24,7 @@ role: Robotics Research Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of North Carolina, Chapel Hill
+  - name: University of North Carolina - Chapel Hill
     url: 
 
 # Social network links
@@ -42,7 +42,7 @@ interests:
 
 education:
   - area: Ph.D. Biomedical Engineering, Robotics
-    institution: University of North Carolina - Chapel Hill
+    institution: University of North Carolina - Chapel Hill (ongoing)
     date_start: 2024-08-01
     date_end: 
 

@@ -57,8 +57,6 @@ projects:
 slides: ""
 ---
 
----
-title: 'Guided Online Distillation: Promoting Safe Reinforcement Learning by Offline Demonstration'
 
 ## Mathematical Formulation
 

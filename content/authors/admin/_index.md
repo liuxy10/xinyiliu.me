@@ -49,9 +49,8 @@ profiles:
 
 
 interests:
-  - Robotics
+  - Human Robot Interation
   - Machine Learning
-  - Computer Vision
   - Autonomous Systems
 
 education:

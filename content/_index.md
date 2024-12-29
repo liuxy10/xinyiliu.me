@@ -10,7 +10,9 @@ sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: "Robotics Research Engineer specializing in autonomous systems, computer vision, and machine learning. Focused on developing innovative robotic technologies including semantic camera trajectory generation, safe reinforcement learning, and trip-recovery planning for prosthetic systems."
+      text: "Robotics Research Engineer specializing in autonomous systems, computer vision, and machine learning. Focused on developing innovative robotic technologies including semantic camera trajectory generation, safe reinforcement learning, and trip-recovery planning for prosthetic systems.
+      
+      "
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -71,7 +73,7 @@ sections:
       title: Technical Skills
       text: |-
         **Programming Languages:** Python, C/C++, MATLAB, R, LaTeX
-        **Frameworks:** PyTorch, TensorFlow, ROS/ROS2
+        **Frameworks:** PyTorch, TensorFlow, ROS/ROS2, CUDA
         **Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
 
   - block: markdown

@@ -8,60 +8,58 @@ authors:
 date: "2024-10-08T00:00:00Z"
 doi: "10.48550/arXiv.2410.06014"
 
-publishDate: "2024-10-08T00:00:00Z"
-
 publication_types: ["article"]
-
 publication: "*arXiv preprint*"
-publication_short: "arXiv"
 
-abstract: Many recent developments for robots to represent environments have focused on photorealistic reconstructions. This paper contributes a novel framework, SplaTraj, which formulates the generation of images within photorealistic environment representations as a continuous-time trajectory optimization problem. The approach enables generating camera trajectories that match user-specified language instructions by querying photorealistic representations with language embeddings to isolate and project specified spatial regions dynamically.
+abstract: We propose SplaTraj, a novel framework for generating camera trajectories using semantic Gaussian splatting. The method transforms image sequence generation into a continuous-time trajectory optimization problem by querying photorealistic representations with language embeddings.
 
-summary: A novel framework for generating semantically-aware camera trajectories using Gaussian splatting and language-guided trajectory optimization.
+summary: Semantically-aware camera trajectory generation using Gaussian splatting and language-guided optimization
 
 tags:
 - Robotics
 - Computer Vision
 - Semantic Gaussian Splatting
-- Camera Trajectory Generation
 
 featured: true
-
-url_pdf: "https://arxiv.org/pdf/2410.06014.pdf"
-url_code: "https://github.com/your-github-repo/SplaTraj"
-url_project: ""
-url_slides: ""
-url_video: ""
-
-image:
-  caption: 'Semantic Camera Trajectory Generation'
-  focal_point: "Center"
-  preview_only: false
-
-projects:
-- semantic-robotics
-- computer-vision
-
-slides: ""
 ---
 
-## Research Highlights
+## Technical Overview
 
-- Developed SplaTraj, a novel framework for generating semantically-aware camera trajectories
-- Introduced a method for querying photorealistic representations using language embeddings
-- Formulated camera trajectory generation as a continuous-time trajectory optimization problem
-- Successfully generated Radial Basis Function-based camera trajectories matching user-specified language instructions
+### Key Contributions
+- Novel semantic Gaussian splatting for camera trajectory generation
+- Language-guided trajectory optimization
+- Continuous-time trajectory generation
+
+### Mathematical Formulation
+
+Camera trajectory optimization is formulated as:
+
+\[ \min_{\tau} J(\tau) = \int_0^T \left( L_{\text{smoothness}}(\tau) + L_{\text{semantic}}(\tau, \mathbf{E}) \right) dt \]
+
+Where:
+- \( \tau \) represents camera trajectory
+- \( L_{\text{smoothness}} \) ensures trajectory smoothness
+- \( L_{\text{semantic}} \) captures semantic constraints
+- \( \mathbf{E} \) represents language embeddings
+
+### Semantic Representation
+
+The semantic Gaussian splatting uses a volumetric representation:
+
+\[ G(x) = \sum_{i=1}^{N} \alpha_i \exp\left(-\frac{(x - \mu_i)^T \Sigma_i^{-1} (x - \mu_i)}{2}\right) \]
+
+Where:
+- \( G(x) \) is the semantic density
+- \( \alpha_i \) are opacity values
+- \( \mu_i \) are Gaussian means
+- \( \Sigma_i \) are covariance matrices
+
+## Experimental Results
+
+- Successfully generated semantically-aware camera trajectories
+- Demonstrated ability to follow language-specified spatial instructions
+- Achieved photogenic view generation across various environments
 
 {{% callout note %}}
-This work was developed during research at Carnegie Mellon University's Drop Lab under the supervision of Dr. Matthew Johnson-Roberson.
+Developed at Carnegie Mellon University's Drop Lab
 {{% /callout %}}
-
-## Technical Approach
-
-The SplaTraj framework addresses the challenge of generating meaningful camera trajectories by:
-1. Creating a dense semantic representation using Gaussian splatting
-2. Implementing a language-guided trajectory optimization method
-3. Dynamically projecting specified spatial regions
-4. Generating photogenic camera movements that respect semantic constraints
-
-

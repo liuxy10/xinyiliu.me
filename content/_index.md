@@ -71,8 +71,8 @@ sections:
       title: Technical Skills
       text: |-
         **Programming Languages:** Python, C/C++, MATLAB, R, LaTeX
-        **Frameworks:** PyTorch, TensorFlow, ROS, ROS2
-        **Simulation Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
+        **Frameworks:** PyTorch, TensorFlow, ROS/ROS2
+        **Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
 
   - block: markdown
     content:

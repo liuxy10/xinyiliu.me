@@ -19,7 +19,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: '#250e62'
         # image:
         #   filename: stacked-peaks.svg
         #   filters:
@@ -49,8 +49,11 @@ sections:
     content:
       title: '📢 News'
       text: |-
-        - **[Spring 2026]** Invited to present our work at DexLab speaker series @ Duke and NC State Robotics Symposium. 
-        - **[Fall 2024]** Joined UNC & NCSU joint BME Doctoral program as a Mansour doctoral fellow.
+        - **[Mar 2026]** Invited to present our work at DexLab speaker series @ Duke, titled "Why Human Control Can't Be Captured by Kinematics Alone?". 
+        - **[Mar 2026]** Invited to present at NC State Robotics Symposium. 
+        - **[Jan 2026]** Leading TA for BME 457 Neural Engineering.
+        - **[May 2025]** Presented at Midwest Robotics Symposium.
+        - **[Sep 2024]** Joined UNC & NCSU joint BME Doctoral program as a Mansour doctoral fellow.
     design:
       columns: 1
 
@@ -82,9 +85,9 @@ sections:
     content:
       title: Technical Skills
       text: |-
-        **Programming Languages:** Python, C/C++, MATLAB, R, LaTeX
-        **Frameworks:** PyTorch, TensorFlow, ROS/ROS2, CUDA
-        **Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
+        - **Programming Languages:** Python, C/C++, MATLAB, R, LaTeX
+        - **Frameworks:** PyTorch, TensorFlow, ROS/ROS2, CUDA
+        - **Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
 
   # - block: markdown
   #   content:

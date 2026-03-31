@@ -44,6 +44,16 @@ sections:
   #   design:
   #     columns: '1'
 
+  - block: markdown
+    id: news
+    content:
+      title: '📢 News'
+      text: |-
+        - **[Spring 2026]** Invited to present our work at DexLab speaker series @ Duke and NC State Robotics Symposium. 
+        - **[Fall 2024]** Joined UNC & NCSU joint BME Doctoral program as a Mansour doctoral fellow.
+    design:
+      columns: 1
+
   - block: collection
     id: papers
     content:
@@ -76,12 +86,12 @@ sections:
         **Frameworks:** PyTorch, TensorFlow, ROS/ROS2, CUDA
         **Tools:** Carla, Gym, IsaacSim, Mujoco, OpenSim
 
-  - block: markdown
-    content:
-      title: Languages
-      text: |-
-        - English (Proficient)
-        - Chinese (Native)
-        - Cantonese (Intermediate)
-        - French (Intermediate)
+  # - block: markdown
+  #   content:
+  #     title: Languages
+  #     text: |-
+  #       - English (Proficient)
+  #       - Chinese (Native)
+  #       - Cantonese (Intermediate)
+  #       - French (Intermediate)
 ---

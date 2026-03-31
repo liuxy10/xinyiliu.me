@@ -1,6 +1,6 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Hobbies'
+date: 2026-03-31
 type: landing
 
 design:
@@ -11,13 +11,13 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Photography and Art
+      text: A collection of my photography and artwork.
       filters:
         folders:
-          - project
+          - art
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
 ---

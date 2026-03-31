@@ -10,9 +10,8 @@ sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: "Hi! I'm Xinyi Liu, I joined UNC & NCSU joint BME Doctoral program in the Fall of 2024. I previously worked on algorithms that enable powered prosthetic legs to automatically avoid trips. My research interests currently focus on reinforcement learning deployed on real robotics systems.
-      
-      "
+      # text: "Hi! I'm Xinyi Liu, I joined UNC & NCSU joint BME Doctoral program in the Fall of 2024. I previously worked on algorithms that enable powered prosthetic legs to automatically avoid trips. My research interests currently focus on reinforcement learning deployed on real robotics systems."
+      text: "Hi! I'm Xinyi Liu, I joined the UNC & NCSU joint BME Doctoral program (as a Mansour doctoral fellow) in the Fall of 2024, supervised by Prof. Helen Huang. I previously worked on algorithms that enable powered prosthetic legs to avoid trips automatically. My research interests currently focus on the application of reinforcement learning to real-world wearable robots. I am deeply interested in how robots and humans co-adapt in a physical sense, and how robots could seamlessly assist people with mobility difficulties. Always happy to connect and share thoughts!"
       button:
         text: Download CV
         url: uploads/resume.pdf

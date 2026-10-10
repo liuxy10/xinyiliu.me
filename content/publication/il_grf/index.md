@@ -1,5 +1,5 @@
 ---
-title: "Beyond Motion Imitation: Is Human Motion Data Alone Sufficient to Explain Gait Control and Biomechanics?"
+title: "Imitation Learning from Human Motion Alone Does Not Guarantee Biomechanically Plausible Gait Kinetics"
 authors:
   - admin
   - Jangwhan Ahn
@@ -17,8 +17,8 @@ publishDate: '2026-03-12T00:00:00Z'
 
 publication_types: ['paper-preprint']
 
-publication: arXiv preprint arXiv:2603.12408
-publication_short: arXiv:2603.12408
+publication: arXiv preprint arXiv:2603.12408 (submitted to IEEE RA-L)
+publication_short: arXiv:2603.12408 (submitted to RA-L)
 
 abstract: With the growing interest in motion imitation learning (IL) for human biomechanics and wearable robotics, this study investigates how additional foot-ground interaction measures, used as reward terms, affect human gait kinematics and kinetics estimation within a reinforcement learning-based IL framework. Results indicate that accurate reproduction of forward kinematics alone does not ensure biomechanically plausible joint kinetics. Adding foot-ground contacts and contact forces to the IL reward terms enables the prediction of joint moments in forward walking simulation, which are significantly closer to those computed by inverse dynamics. [arxiv](https://arxiv.org/abs/2603.12408)
 

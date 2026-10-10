@@ -25,6 +25,9 @@ main:
   - name: Teaching & Outreach
     url: teaching/
     weight: 40
+  - name: Blog
+    url: post/
+    weight: 45
   - name: Art
     url: art/
     weight: 50

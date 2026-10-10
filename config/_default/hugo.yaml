@@ -50,6 +50,9 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true  # allow raw <video> tags in posts
 security:
   _merge: deep
 sitemap:

@@ -51,6 +51,7 @@ sections:
         - **[Sep 2026]** Speaker at the Coulter Series Seminar of the Lampe Joint BME Department.
         - **[Jun 2026]** Second speaker at [Dynamic Walking 2026](https://www.youtube.com/watch?v=hMmCPn6QCsE)!
         - **[May 2026]** Won the [Graduate Student Service Award](https://bme.unc.edu/2026/05/graduate-student-service-awards-announced-for-2025-2026-cohort/).
+        - **[Apr 2026]** Ran a Powered Prosthetics table at the Marbles Backwards Science Fair, showing visitors how [wearable robots](teaching/marble-museum-outreach/) can improve quality of life.
         - **[Mar 2026]** Invited to present our work at DexLab speaker series @ Duke, titled "Why Human Control Can't Be Captured by Kinematics Alone?". 
         - **[Mar 2026]** Invited to present at NC State Robotics Symposium. 
         - **[Jan 2026]** Leading TA for BME 457 Neural Engineering.

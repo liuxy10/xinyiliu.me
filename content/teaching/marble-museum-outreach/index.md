@@ -16,19 +16,13 @@ Read more in the [LinkedIn post](https://lnkd.in/p/eRGH5vnz).
 ![Our Powered Prosthetics table at the Marbles Backwards Science Fair](featured.jpg)
 *Our Powered Prosthetics table at the Marbles Backwards Science Fair*
 
-![The team with our poster](team.jpg)
-*The team with our poster*
-
-![Three team members in lab T-shirts at Marbles Kids Museum before the event](arrival.jpg)
-*Arriving at Marbles Kids Museum*
-
 ![The Marbles Kids Museum atrium with the Backwards Science Fair sign](museum.jpg)
 *The Backwards Science Fair at Marbles Kids Museum*
 
-![A parent and child look at a prosthetic hand demo while a team member explains it](hand-demo.jpg)
+![Our passionate young scientist look at a prosthetic hand demo while our teammate John explains it](hand-demo.jpg)
 *Trying out the prosthetic hand demo*
 
-![A team member wearing a hip exoskeleton shows our poster to two children](exo-demo.jpg)
+![Our scientist Varun wearing a hip exoskeleton shows our poster to two children](exo-demo.jpg)
 *Showing visitors a wearable robot and our poster*
 
 ![A selfie of the team and visitors at our table](table-selfie.jpg)
